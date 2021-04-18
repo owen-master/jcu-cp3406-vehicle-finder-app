@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto" app:allowDividerBelow="false" app:allowDividerAbove="false">
+
+    <PreferenceCategory app:title="@string/header_measurements">
+
+        <SwitchPreferenceCompat
+            app:key="imperialMeasurements"
+            app:title="@string/setting_imperial_measurements_title"
+            app:summary="@string/setting_imperial_measurements_description"
+            app:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/header_other">
+
+        <SwitchPreferenceCompat
+            app:key="distanceColours"
+            app:title="@string/setting_distance_colours_title"
+            app:summary="@string/setting_distance_colours_description"
+            app:defaultValue="true"/>
+
+        <SwitchPreferenceCompat
+            app:key="clearConfirmation"
+            app:title="@string/setting_clear_confirmation_title"
+            app:summary="@string/setting_clear_confirmation_description"
+            app:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

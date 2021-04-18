@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Vehicle Finder</string>
+
+    <!-- General -->
+    <string name="location_not_ready">Please move around for GPS to initialise.</string>
+    <string name="vehicle_position_marked">Vehicle position marked!</string>
+    <string name="vehicle_position_cleared">Vehicle position cleared!</string>
+    <string name="mark_position">Mark Position</string>
+    <string name="clear_position">Clear position</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_locator">Vehicle Locator</string>
+
+    <!-- Distance Formats -->
+    <string name="format_distance_metres">Distance: %sm</string>
+    <string name="format_distance_feet">Distance: %sft</string>
+
+    <!-- Preference Headers -->
+    <string name="header_measurements">Measurements</string>
+    <string name="header_other">Other</string>
+
+    <!-- Preferences -->
+    <string name="setting_imperial_measurements_title">Imperial measurements</string>
+    <string name="setting_imperial_measurements_description">Display units of measurement in feet instead of metres</string>
+
+    <string name="setting_distance_colours_title">Distance colours</string>
+    <string name="setting_distance_colours_description">Changes the colour of components to easily identify distance</string>
+
+    <string name="setting_clear_confirmation_title">Clear confirmation</string>
+    <string name="setting_clear_confirmation_description">When you clear your vehicle position you will be asked for a confirmation</string>
+
+    <!-- Confirmation Box -->
+    <string name="confirmation_description">Are you sure you want to clear your vehicle position?</string>
+    <string name="confirmation_title">Clear vehicle position</string>
+    <string name="confirmation_positive_button">OK</string>
+    <string name="confirmation_negative_button">Cancel</string>
+
+    <!-- Other -->
+    <string name="settings">Settings</string>
+    <string name="direction_image_view">direction image view</string>
+</resources>
